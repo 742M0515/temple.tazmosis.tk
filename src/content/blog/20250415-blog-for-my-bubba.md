@@ -1,9 +1,9 @@
 ---
 draft: false
-title: "Blog for my Bubba"
+title: "A Blog for my Bubba"
 snippet: "Website launch."
 image: {
-    src: "../assets/blog.webp",
+    src: "https://tazmosis.imgix.net/blog.webp",
     alt: "temple.tazmosis.tk"
 }
 publishDate: "2025-04-15 08:56"
@@ -13,3 +13,5 @@ tags: [first, blog]
 ---
 
 Hello, World!
+
+![Ralph](../../assets/ralph.gif)
