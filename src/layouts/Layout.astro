@@ -1,10 +1,10 @@
 ---
 import { SEO } from "astro-seo";
 import Footer from "@/components/footer.astro";
-import Navbar from "@/components/navbar/navbar.astro";
+import Navbar from "@/components/navbar.astro";
 import "@fontsource-variable/inter/index.css";
 import "@fontsource-variable/bricolage-grotesque";
-import "../styles/global.css";
+import "@/styles/global.css";
 
 export interface Props {
   title: string;
@@ -66,5 +66,7 @@ const makeTitle = title
         content-visibility: auto;
       }
     </style>
+
+<script is:inline src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
   </body>
 </html>

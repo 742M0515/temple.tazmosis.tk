@@ -8,7 +8,6 @@ image: {
 }
 publishDate: "2025-04-15 08:56"
 category: "Blog"
-author: "Dada"
 tags: [first, blog]
 ---
 

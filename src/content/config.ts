@@ -12,7 +12,6 @@ const blogCollection = defineCollection({
       alt: z.string(),
     }),
     publishDate: z.string().transform(str => new Date(str)),
-    author: z.string().default('Astroship'),
     category: z.string(),
     tags: z.array(z.string()),
   }),
