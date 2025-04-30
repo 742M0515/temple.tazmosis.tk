@@ -1,7 +1,7 @@
 {
-  "name": "astroship",
+  "name": "tazmosis.tk",
   "type": "module",
-  "version": "3.0.0",
+  "version": "bubba.0.2.1",
   "private": true,
   "scripts": {
     "dev": "astro dev",
